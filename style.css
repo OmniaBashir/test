@@ -1,0 +1,1237 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin : 0;
+	padding : 0;
+	box-sizing : border-box;
+}
+body {
+	text-align: center;
+}
+
+
+/* Index Page - Navigation bar */
+
+.divNav {
+	width: 100%;
+}
+.navLeft {
+	width: 15%;
+	float: left;
+}
+.navCenter {
+	width: 70%;
+	float: left;
+}
+.navRight {
+	width: 15%;
+	float: left;
+}
+.nav {
+	color : #52A4DD;
+	font-family: 'Gochi Hand', cursive;
+	text-decoration: none;
+	font-size: 50px;
+	display: inline-block;
+	padding-top: 70px;
+	width: 250px;
+	height: 30px;
+	font-weight: bold;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-align: center;
+}
+.nav:hover {
+	color : #C2D57A;
+	font-family: 'Gochi Hand', cursive;
+	text-decoration: none;
+	font-size: 50px;
+	display: inline-block;
+	padding-top: 20px;
+	width: 250px;
+	height: 30px;
+	font-weight: bold;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-align: center;
+}
+.home {
+	color : #C2D57A;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 50px;
+	display: inline-block;
+	padding-top: 20px;
+	width: 250px;
+	height: 30px;
+	font-weight: bold;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-align: center;
+}
+
+/* Index Page - Header */
+
+.logo {
+	float : right;
+	width: 60%;
+	border-radius: 50px;
+}
+.indexHead {
+	width: 100%;
+	clear: both;
+}
+.h1Header {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #500063;
+	font-size: 70px;
+	text-align: center;
+}
+.headIndex {
+	width: 100%;
+	height: 300px;
+	clear: both;
+}
+.headIndexLeft {
+	background-image: url(../images/img-header.png);
+	background-size: 100%;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	width: 50%;
+	height: 622px;
+	float: left;
+	overflow: auto;
+}
+.headIndexRight {
+	float: left;
+	width: 50%;
+	height: 350px;
+	color : #CD4E95;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 50px;
+	overflow: auto;
+	padding-top: 100px;
+}
+
+/* Index Page - About Us */
+
+.aboutSection {
+	width: 100%;
+	background-color: #EFE4D2;
+	overflow: auto;
+	margin: auto;
+	height: 617px;
+	text-align: center;
+	clear: both;
+}
+.aboutSectionRight {
+	width: 50%;
+	float: left;
+	height: 350px;
+}
+.aboutSectionLeft {
+	width: 50%;
+	float: left;
+	height: 350px;
+}
+.aboutImg {
+	width: 60%;
+	margin-left: 20px;
+}
+.pAbout {
+	color: #C4357D;
+	font-size: 50px;
+	font-family: 'Gochi Hand', cursive;
+	overflow: auto;
+	margin: 50px;
+}
+.h1About {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #9DC62A;
+	font-size: 110px;
+	text-align: center;
+	margin: auto;
+}
+.usAbout {
+	color: #FACD3D;
+}
+
+/* Index Page - Programs */
+
+.programSection {
+	width: 100%;
+	height: 850px;
+	text-align: center;
+	clear: both;
+	margin: auto;
+	background-color: white;
+}
+.prog {
+	float: left;
+	width: 17%;
+	height: 400px;
+	background-color: #B1DCE4;
+	border: 25px solid #B1DCE4;
+	margin-top: 50px;
+	border-radius: 70px;
+	text-align: center;
+	margin-left: 220px;
+	margin-bottom: 30px;
+}
+.imgProg {
+	float: left;
+	width: 100%;
+	height: 200px;
+	border-radius: 40px;
+	margin: auto;
+}
+.dateAndName {
+	color: #AA3F6D;
+	font-family: 'Gochi Hand', cursive;
+	font-style: italic;
+	font-size: 30px;
+}
+.progName {
+	font-family: 'Gochi Hand', cursive;
+	font-weight: bold;
+	font-size: 40px;
+}
+.h1Program {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #9DC62A;
+	font-size: 110px;
+}
+.pProgram {
+	font-family: 'Permanent Marker', cursive;
+	color: #57A3DB;
+	font-size: 50px;
+	width: 100%;
+}
+input[type=submit] {
+	color: #AA3F6D;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 30px;
+	width: 20%;
+	height: 45px;
+	border-radius: 70px;
+	border: 3px solid #B1DCE4;
+	background-color: #B1DCE4;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+input[type=submit]:hover {
+	color: #B1DCE4;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 30px;
+	width: 20%;
+	height: 45px;
+	border-radius: 70px;
+	border: 3px solid #AA3F6D;
+	background-color: #AA3F6D;
+	margin: auto;
+	cursor: pointer;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+/* Index Page - Footer */
+
+.mainFooter {
+	width: 100%;
+	background-color: #EFE4D2;
+}
+.subFooter {
+	width: 33%;
+	float: left;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 30px;
+	padding-top: 10px;
+}
+.logoFooter {
+	margin: auto;
+	width: 10%;
+	border-radius: 100px;
+	margin-top: 20px;
+}
+.pFooter {
+	font-family: 'Gochi Hand', cursive;
+	font-size: 30px;
+}
+.imgSocial {
+	width: 40px;
+	height: 40px;
+}
+.indexFooter {
+	width: 100%;
+	height: 100px;
+	clear: both;
+	padding-top: 110px;
+}
+
+/* About Page - Head  */
+
+.aboutHead {
+	width: 100%;
+	height: 900px;
+	clear: both;
+}
+.container {
+	width: 100%;
+	height: 2500px;
+	overflow: auto;
+	margin: auto;
+
+	/* box-shadow: 4px 4px 40px gray; */
+	/* border: 2px solid darkblue; */
+
+
+}
+.containerSub {
+	width: 100%;
+	overflow: auto;
+	margin: auto;
+}
+.left {
+	width: 40%;
+	float: left;
+	height: 600px;
+	margin: auto;
+	overflow: auto;
+	margin-left: 205px;
+	box-shadow: 4px 4px 40px gray;
+	margin-bottom: 10px;
+
+
+}
+.right {
+	width: 40%;
+	float: right;
+	height: 600px;
+	margin: auto;
+	overflow: auto;
+	margin-right: 168px;
+	box-shadow: 4px 4px 40px gray;
+
+}
+.imgZig {
+	width: 80%;
+	height: 550px;	
+	margin: auto;
+	margin-top: 25px;
+
+}
+h2 {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #D50F2C;
+	font-size: 50px;
+	width: 100%;
+	text-align: center;
+	padding-top: 130px;
+}
+.p {
+	color: #C4357D;
+	font-size: 40px;
+	font-family: 'Gochi Hand', cursive;
+	overflow: auto;
+	text-align: center;
+	padding-top: 130px;
+
+}
+.para {
+	width: 80%;
+	float: left;
+}
+.imgAbout {
+	width: 10%;
+}
+
+/* Programs Page - Head  */
+
+.programHead {
+	width: 100%;
+	/*
+	background-image: url(../images/programPage.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+*/
+	height: 580px;
+	clear: both;
+}
+.programSection {
+	width: 100%;
+	height: 500px;
+}
+.programSectionOne {
+	width: 100%;
+	height: 700px;
+}
+.subProgram {
+	display: inline-block;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 35px;
+	color: #AA3F6D;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 25px;
+	width: 25%;
+	height: 45px;
+	border-radius: 70px;
+	border: 3px solid #3EB2CF;
+	background-color: beige;
+	margin: 5px;
+}
+.subProgram:hover {
+	display: inline-block;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 35px;
+	color: beige;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 25px;
+	width: 25%;
+	height: 45px;
+	border-radius: 70px;
+	border: 3px solid #3EB2CF;
+	background-color: #AA3F6D;
+	margin: 5px;
+}
+.progBottum {
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	clear: both;
+	margin: auto;
+	background-color: white;
+}
+.progTwo {
+	float: left;
+	width: 17%;
+	height: 550px;
+	background-color: #B1DCE4;
+	border: 25px solid #B1DCE4;
+	margin-top: 50px;
+	border-radius: 70px;
+	text-align: center;
+	margin-left: 140px;
+	margin-bottom: 30px;
+}
+.develop {
+	color: #C4357D;
+	font-size: 25px;
+	font-family: 'Gochi Hand', cursive;
+	overflow: auto;
+}
+
+/* Gallery Page   */
+
+.galleryHead{
+	width: 100%;
+	height: 550px;
+	text-align: center;
+	padding-top: 200px;
+}
+
+.myImg {
+                border-radius: 35px;
+                cursor: pointer;
+                transition: 0.3s;
+                border: 4px solid #3EB2CF;
+                width: 100%;
+                height: 250px;
+                margin-bottom: 20px;
+                margin-right: 20px;
+            }
+            
+            .myImg:hover {
+				opacity: 0.7;
+			}
+		
+		
+	
+            /* The Modal (background) */
+            .modal {
+                display: none; /* Hidden by default */
+                position: fixed; /* Stay in place */
+                z-index: 1; /* Sit on top */
+                padding-top: 45px; /* Location of the box */
+                left: 0;
+                top: 0;
+                width: 100%; /* Full width */
+                height: 100%; /* Full height */
+                overflow: auto; /* Enable scroll if needed */
+                background-color: rgb(0,0,0); /* Fallback color */
+                background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+            }
+            
+		
+            /* Modal Content (image) */
+            .modal-content {
+                margin: auto;
+                display: block;
+                width: 80%;
+                max-width: 1100px;
+            }
+            
+            
+            
+            @-webkit-keyframes zoom {
+                from {-webkit-transform:scale(0)} 
+                to {-webkit-transform:scale(1)}
+            }
+            
+            @keyframes zoom {
+                from {transform:scale(0)} 
+                to {transform:scale(1)}
+            }
+            
+		
+            /* The Close Button */
+            .close {
+                position: absolute;
+                top: 15px;
+                right: 35px;
+                color: #f1f1f1;
+                font-size: 40px;
+                font-weight: bold;
+                transition: 0.3s;
+            }
+            
+            .close:hover,
+            .close:focus {
+                color: #bbb;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            
+            /* 100% Image Width on Smaller Screens */
+            @media only screen and (max-width: 700px){
+                .modal-content {
+                    width: 100%;
+                }
+            }
+
+
+/* Contact Page   */
+
+
+.cont{
+	width: 100%;
+	padding-bottom: 50px;
+	border-radius: 10px;
+	padding: 20px;
+	overflow: auto;
+
+}
+
+.contSub{
+	width: 40%;
+	background-color: #EFE4D2;
+	border: 2px solid #EFE4D2;
+	border-radius: 30px;
+	padding-top: 20px;
+	float: left;
+	margin-left: 130px;
+	box-shadow: 4px 4px 40px gray;
+
+}
+
+
+label {
+	font-family: 'Gochi Hand', cursive;
+	font-size: 40px;
+	color: #C4357D;
+}
+
+input[type=text], select {
+	width: 90%;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px auto;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 30px;
+/*	color: #C4357D;*/
+
+}
+textarea {
+	width: 90%;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px auto;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 30px;
+	height: 150px;
+	resize: none;
+}
+
+
+.contactFooter{
+	width: 100%;
+	height: 100px;
+	clear: both;
+	padding-top: 400px;
+}
+
+input[type=submit] {
+	font-size: 40px;
+	width: 30%;
+	height: 70px;
+	border-radius: 70px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 35px;
+	color: #AA3F6D;
+	font-family: 'Gochi Hand', cursive;
+	border: 3px solid #3EB2CF;
+	background-color: beige;	
+	cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+	font-size: 40px;
+	width: 30%;
+	height: 70px;
+	border-radius: 70px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 35px;
+	color: beige;
+	font-family: 'Gochi Hand', cursive;
+	border: 3px solid #3EB2CF;
+	background-color: #AA3F6D;
+	cursor: pointer;
+}
+
+
+.pContact {
+	/* color: #C4357D; */
+	color: #717171;
+	font-size: 40px;
+	font-family: 'Gochi Hand', cursive;
+	overflow: auto;
+	margin: 50px;
+}
+
+.pTwo{
+/*	color: #717171;*/
+	font-size: 50px;
+	font-family: 'Gochi Hand', cursive;
+	overflow: auto;
+	margin: 50px;
+	color: #D50F2C;
+
+}
+
+
+
+@media screen and (max-width:1024px) {
+	div { float: left;  
+		width: 100%;
+	}
+	
+	
+/* Home Page*/
+	
+	.navCenter {
+		width: 100%;
+	}
+	
+	.nav {
+		
+		font-size: 20px;
+		display: inline-block;
+		padding-top: 0px;
+		width: 90px;
+		height: 50px;
+		font-weight: bold;
+		padding-right: 10px;
+		padding-left: 0px;
+		text-align: center;
+		margin-right: 3px;
+	}
+	.nav:hover {
+		font-size: 20px;
+		display: inline-block;
+		padding-top: 10px;
+		width: 90px;
+		height: 50px;
+		font-weight: bold;
+		padding-right: 10px;
+		padding-left: 0px;
+		text-align: center;
+		margin-right: 3px;
+	}
+	.home {
+		font-size: 20px;
+		display: inline-block;
+		padding-top: 10px;
+		width: 90px;
+		height: 50px;
+		font-weight: bold;
+		padding-right: 10px;
+		padding-left: 0px;
+		text-align: center;
+		margin-right: 3px;
+	}
+	
+	.logo {
+		width: 100%;
+	}
+
+	.h1Header {
+		
+		font-size: 30px;
+		text-align: center;
+	}
+
+	.headIndexLeft {
+		width: 100%;
+		height: 250px;
+		margin: auto;
+	}
+	.headIndexRight {
+		float: left;
+		width: 100%;
+		height: 120px;
+		color : #CD4E95;
+		font-size: 20px;
+		padding-top: 10px;
+	}
+
+	
+	/* Index Page - About */
+
+	.aboutSection {
+		width: 100%;
+		margin: auto;
+		height: 420px;
+		text-align: center;
+		clear: both;
+		margin-bottom: 0px;
+	}
+
+	.aboutSectionRight {
+		width: 100%;
+		height: 30px;
+		margin: auto;
+
+	}
+	.aboutSectionLeft {
+		width: 100%;
+		height: 30px;
+		margin: auto;
+
+
+	}
+	.aboutImg {
+		width: 50%;
+		margin: auto;
+		padding-top: 200px;
+	}
+	.pAbout {
+		color: #C4357D;
+		font-size: 20px;
+		font-family: 'Gochi Hand', cursive;
+/*		overflow: auto;*/
+		padding-top: 110px;
+		padding-bottom: 0px;
+/*		margin: 50px;*/
+	}
+	.h1About {
+		font-size: 30px;
+		text-align: center;
+		padding-bottom: 0px;
+		padding-top: 10px;
+	}
+	
+	
+	/* Index Page - program */
+
+	
+	.programSection {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	clear: both;
+	margin: auto;
+	background-color: white;
+		margin-top: 50px;
+
+}
+.prog {
+	float: none;
+	width: 80%;
+	height: auto;
+	background-color: #B1DCE4;
+	border: 25px solid #B1DCE4;
+	margin-top: 10px;
+	border-radius: 70px;
+	text-align: center;
+	margin-left: 35px;
+	/*margin-bottom: 30px;*/
+	margin-right: 0px;
+}
+.imgProg {
+/*	float: left;*/
+	width: 100%;
+	height: 200px;
+	border-radius: 40px;
+	margin: auto;
+	
+}
+.dateAndName {
+	font-size: 15px;
+}
+.progName {
+	font-size: 20px;
+}
+.h1Program {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #9DC62A;
+	font-size: 30px;
+	margin-top: auto;
+	padding-top: 0px;
+
+}
+.pProgram {
+	font-family: 'Permanent Marker', cursive;
+	color: #57A3DB;
+	font-size: 20px;
+	width: 100%;
+	padding-top: 0px;
+	margin-top: 0px;
+
+}
+input[type=submit] {
+	
+	font-size: 20px;
+	width: 70%;
+	height: 45px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+input[type=submit]:hover {
+	
+	font-size: 20px;
+	width: 70%;
+	height: 45px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+	
+/* Index Page - Footer */
+
+.mainFooter {
+	width: 100%;
+}
+.subFooter {
+	width: 100%;
+/*	float: left;*/
+	font-size: 13px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.logoFooter {
+	margin: auto;
+	width: 18%;
+	margin-top: 10px;
+}
+.pFooter {
+	font-size: 13px;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+}
+.imgSocial {
+	width: 20px;
+	height: 20px;
+}
+.indexFooter {
+	width: 100%;
+/*	height: 100px;*/
+	clear: both;
+	padding-top: 190px;
+}
+	
+	
+	
+	
+	
+	/* About Page*/
+
+	
+	
+
+.aboutHead {
+	width: 100%;
+	height: 300px;
+	clear: both;
+}
+.container {
+	width: 100%;
+	height: 2400px;
+	overflow: auto;
+	margin: auto;
+}
+.containerSub {
+	width: 100%;
+	overflow: auto;
+	margin: auto;
+}
+.left {
+	width: 100%;
+	float: none;
+	height: 300px;
+	margin: auto;
+	overflow: auto;
+	margin-left: 0px;
+	box-shadow: none;
+	margin-bottom: 0px;
+	padding-top: 50px;
+
+}
+.right {
+	width: 100%;
+	float: none;
+	height: 300px;
+	margin: auto;
+	overflow: auto;
+	margin-right: 0px;
+	box-shadow: none;
+padding-top: 50px;
+
+}
+.imgZig {
+	width: 100%;
+	height: 200px;	
+	margin: auto;
+	margin-top: 0px;
+
+}
+h2 {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #D50F2C;
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+	padding-top: 0px;
+}
+.p {
+	color: #C4357D;
+	font-size: 20px;
+	font-family: 'Gochi Hand', cursive;
+	overflow: auto;
+	text-align: center;
+	padding-top: 0px;
+
+
+}
+.para {
+	width: 80%;
+	float: left;
+}
+.imgAbout {
+	width: 10%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+	
+	#h1Media{
+		padding-bottom: 0px;
+		padding-top: 0px;
+	}	
+	
+	
+	#pMedia{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		margin-top: 5px;
+		margin-bottom: 15px;
+	}
+	
+	
+	
+	
+	
+	
+	.subProgram {
+	
+	padding-top: 10px;
+	padding-bottom: 35px;
+	color: #AA3F6D;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 18px;
+	width: 50%;
+	height: 5px;
+	
+	margin: 0px;
+}
+.subProgram:hover {
+	
+	padding-top: 10px;
+	padding-bottom: 35px;
+	color: beige;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 18px;
+	width: 50%;
+	height: 5px;
+	margin: 5px;
+}
+	
+	.indexFooter {
+	width: 100%;
+	clear: both;
+	padding-top: 40px;
+}
+	
+	
+	
+	/* Programs Page - Head  */
+
+
+
+.progTwo {
+	float: none;
+	width: 100%;
+	height: 550px;
+	background-color: #B1DCE4;
+	border: 25px solid #B1DCE4;
+	margin: auto;
+	margin-top: 0px;
+	border-radius: 70px;
+	text-align: center;
+/*	margin-left: 0px;*/
+	margin-bottom: 30px;
+}
+	
+	.prog {
+	float: none;
+	width: 100%;
+	height: 290px;
+	background-color: #B1DCE4;
+	border: 25px solid #B1DCE4;
+	margin-top: 10px;
+	border-radius: 70px;
+	text-align: center;
+	margin-left: 0px;
+	margin-bottom: 30px;
+/*		padding-top: 200px;*/
+}
+
+	
+	.programSection {
+	width: 100%;
+	height: auto;
+	padding-top: 330px;
+}
+	
+	
+	
+.progTwo {
+	float: none;
+	width: 100%;
+	height: auto;
+	margin-top: 3px;
+	border-radius: 70px;
+	text-align: center;
+	margin-left: 0px;
+	margin-bottom: 15px;
+}	
+	
+	
+	
+.programHead {
+	width: 100%;
+	height: 180px;
+	}	
+	
+	
+	.pAbout {
+	color: #C4357D;
+	font-size: 20px;
+	margin: auto;
+	text-align: left;
+}
+	
+	
+	
+/*	Gallery page */
+	
+	
+	.galleryHead{
+	width: 100%;
+	height: 280px;
+	text-align: center;
+	padding-top: 100px;
+}
+	
+	
+	
+	
+	.myImg {
+               margin: auto;
+                width: 100%;
+                height: 250px;
+                margin-bottom: 20px;
+            }
+            
+	
+	
+/*	contact page*/
+
+	
+	.cont{
+	width: 100%;
+	padding-bottom: 50px;
+	border-radius: 10px;
+/*	padding: 20px;*/
+	overflow: auto;
+	height: auto;
+
+}
+
+.contSub{
+	width: 100%;
+/*	padding-top: 20px;*/
+	float: left;
+	margin-left: 0px;
+	box-shadow: 4px 4px 40px gray;
+	margin-bottom: 20px;
+
+}
+	
+	.contactFooter{
+	
+	margin-top: 650px;
+}
+	
+.aboutHead {
+	width: 100%;
+	height: 200px;
+	clear: both;
+	margin: auto;
+}
+	
+	.pAbout {
+	font-size: 20px;
+	margin-top: 0px;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 0px;
+
+}
+	
+	
+	.h1About {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #9DC62A;
+	font-size: 50px;
+	text-align: center;
+	margin: 0px;
+}
+	
+	
+	
+	.pContact {
+	color: #717171;
+	font-size: 30px;
+	font-family: 'Gochi Hand', cursive;
+	overflow: auto;
+	margin: auto;
+}
+
+.pTwo{
+	font-size: 40px;
+	font-family: 'Gochi Hand', cursive;
+	overflow: auto;
+	margin: auto;
+	color: #D50F2C;
+
+}
+	
+	
+	
+	label {
+	font-size: 30px;
+		margin: auto;
+}
+
+input[type=text], select {
+	width: 90%;
+	background-color: white;
+/*	padding: 10px;*/
+	border-radius: 10px;
+	margin: 0 auto;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 20px;
+
+}
+textarea {
+	width: 90%;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 0 auto;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 30px;
+	height: 150px;
+	resize: none;
+}
+	
+	
+	input[type=submit] {
+	font-size: 30px;
+	width: 60%;
+	height: 50px;
+	border-radius: 70px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 35px;
+	color: #AA3F6D;
+	font-family: 'Gochi Hand', cursive;
+	border: 3px solid #3EB2CF;
+	background-color: beige;	
+	cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+	font-size: 30px;
+	width: 60%;
+	height: 50px;
+	border-radius: 70px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 35px;
+	color: beige;
+	font-family: 'Gochi Hand', cursive;
+	border: 3px solid #3EB2CF;
+	background-color: #AA3F6D;
+	cursor: pointer;
+}
+
+	
+
+}
